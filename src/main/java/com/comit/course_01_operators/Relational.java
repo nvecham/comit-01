@@ -6,6 +6,7 @@ public class Relational {
 		// TODO Auto-generated method stub
 		int a = 10;
 		int b = 8;
+		int c = 12;
 		
 		boolean equalTo = a==b;
 		boolean notEqual = a!=b;
@@ -14,6 +15,8 @@ public class Relational {
 		boolean lessThanEqual = a<=b;
 		boolean greaterThanEqual = a>=b;
 		
+		boolean exp = (a==b) && (c>=b);
+		
 		
 		System.out.println("Equal To: " + equalTo);
 		System.out.println("Not Equal To: " + notEqual);
@@ -21,6 +24,7 @@ public class Relational {
 		System.out.println("Greater Than: " +greaterThan);
 		System.out.println("Less Than Equal To: " +lessThanEqual);
 		System.out.println("Greater Than Equal To: " +greaterThanEqual);
+		System.out.println("Expression: "+exp);
 
 	}
 
