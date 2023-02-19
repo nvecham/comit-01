@@ -1,4 +1,4 @@
-package com.comit.course;
+package com.comit.practice_hw;
 
 public class MathOperations {
 
