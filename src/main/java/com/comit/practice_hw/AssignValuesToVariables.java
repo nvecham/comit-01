@@ -14,8 +14,8 @@ public class AssignValuesToVariables {
 		char C = 'A';
 		
 		System.out.println("N : "+N);
-		System.out.println("N : "+A);
-		System.out.println("N : "+C);
+		System.out.println("A : "+A);
+		System.out.println("C : "+C);
 		
 		System.out.println("N+A : " +(N+A));
 		System.out.println("A-N : " +(A-N));
