@@ -1,5 +1,6 @@
 package com.comit.practice_hw;
 
+<<<<<<< HEAD
 import java.util.Scanner;
 
 class CalcOperations {
@@ -41,11 +42,14 @@ class CalcOperations {
 
 }
 
+=======
+>>>>>>> 0c9b46b3117f1ee336f34c1ba17ccf308e195f0e
 public class Calculator {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+<<<<<<< HEAD
 		System.out.println("Enter first number : ");
 
 		Scanner sc = new Scanner(System.in);
@@ -65,6 +69,8 @@ public class Calculator {
 		
 		sc.close();
 		
+=======
+>>>>>>> 0c9b46b3117f1ee336f34c1ba17ccf308e195f0e
 	}
 
 }

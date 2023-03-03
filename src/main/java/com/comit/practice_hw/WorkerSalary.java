@@ -2,6 +2,7 @@ package com.comit.practice_hw;
 
 import java.util.Scanner;
 
+<<<<<<< HEAD
 class Employee{
 	
 	String name;
@@ -49,10 +50,13 @@ class Employee{
 	
 }
 
+=======
+>>>>>>> 0c9b46b3117f1ee336f34c1ba17ccf308e195f0e
 public class WorkerSalary {
 
 	public static void main(String[] args) {
 		
+<<<<<<< HEAD
 		System.out.println("Enter the name of the employee : ");
 		Scanner sc =  new Scanner(System.in);
 		String name = sc.nextLine();
@@ -73,6 +77,22 @@ public class WorkerSalary {
 		
 		
 		
+=======
+		System.out.println("Enter the current salary of the worker : ");
+		
+		Scanner sc =  new Scanner(System.in);
+		double sal = sc.nextDouble();
+		
+		if(sal<1000) {
+			sal = sal + (0.15*sal);
+			System.out.println("New increased salary is : "+sal);
+		}else {
+			sal = sal + (0.12*sal);
+			System.out.println("New increased salary is : "+sal);
+		}
+		
+		sc.close();
+>>>>>>> 0c9b46b3117f1ee336f34c1ba17ccf308e195f0e
 	}
 
 }
